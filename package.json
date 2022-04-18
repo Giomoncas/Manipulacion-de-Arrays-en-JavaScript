@@ -19,6 +19,8 @@
   "bugs": {
     "url": "https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript/issues"
   },
-  "homepage": "https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript#readme"
-  
+  "homepage": "https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
 }
