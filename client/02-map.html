@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodo MAP</title>
+</head>
+<body>
+    <h1>Uso del metodo MAP en los arrays!</h1>
+    <div id="app"></div>
+    <script>
+        const products = [
+            { title: 'Carro', price: 1000 },
+            { title: 'Moto', price: 500 },
+        ];
+        const app = document.getElementById('app');
+        const lis = products.map(product => {  //A cada producto le realiza una impresion 
+            return `<li>${product.title} - $${product.price}</li>`;
+        })
+        app.innerHTML = lis.join('');  //Imprimir esta lista en el documento, convierte de array a un string
+    </script>
+</body>
+</html>

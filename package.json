@@ -1,0 +1,24 @@
+{
+  "name": "manipulacion-de-arrays-en-javascript",
+  "version": "1.0.0",
+  "description": "Manipulacion de Arrays con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript.git"
+  },
+  "keywords": [
+    "Arrays",
+    "JavaScript"
+  ],
+  "author": "Giovanni Montoya <giovanni87070665@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Giomoncas/Manipulacion-de-Arrays-en-JavaScript#readme"
+  
+}
