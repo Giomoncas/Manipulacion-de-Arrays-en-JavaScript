@@ -11,7 +11,7 @@ for (let index = 0; index < numbers.length; index++) {
 console.log('for', rta);
 
 //Verificar si todos los elementos del arreglo cumplen con la condicion de swer mayor o igual a 40 con metodo EVERY
-const rta2 = numbers.every(item => item <= 40)
+const rta2 = numbers.every(item => item <= 40);
 console.log('rta2 EVERY', rta2);
 
 
@@ -34,5 +34,5 @@ const team = [
   },
 ];
 
-const rta3 = team.every(item => item.age >= 10);
+const rta3 = team.every(item => item.age < 15);
 console.log('rta3 EVERY', rta3);
